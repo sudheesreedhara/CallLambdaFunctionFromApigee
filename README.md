@@ -12,5 +12,5 @@ The API proxy is a barebones node.js script.  If you call it directly with `/` t
 Deploy the proxy like so using apigeetool and replace with your own organization and username:
 
 ```
-apigeetool deployproxy -d . -o <organization> -n callLambda -u <username>  -e test -V
+apigeetool deployproxy -d . -o <organization> -n callLambda -u <username>  -e prod,test -V
 ``` 
