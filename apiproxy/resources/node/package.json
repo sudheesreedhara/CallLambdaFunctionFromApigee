@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "apigee-access": "^1.4.0",
+    "aws-sdk": "^2.148.0",
+    "body-parser": "^1.18.2"
+  }
+}
