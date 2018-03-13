@@ -14,3 +14,5 @@ Deploy the proxy like so using apigeetool and replace with your own organization
 ```
 apigeetool deployproxy -d . -o <organization> -n callLambda -u <username>  -e prod,test -V
 ``` 
+
+Before you invoke, edit the `callLambda.js` and update `FunctionName` & `region` fields pointing to your Lambda function and AWS region.
