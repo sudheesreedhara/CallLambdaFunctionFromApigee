@@ -1,4 +1,4 @@
-# Call Lambda Function From Apigee Proxy
+# Call Amazon AWS Lambda Function From Apigee Proxy
 The idea here is to have a lambda sitting in Amazon that you call from Apigee Edge from inside of node.js. This example assumes that you you have an ecncrypted Key-value-map (KVM) in Apigee Edge called `creds` with two keys:
 
 * AWS_ACCESS_KEY_ID
